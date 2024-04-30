@@ -1,0 +1,216 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="img/icons8-movies-50 (1).png" alt="index.html">StarMaze
+      </a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <nav class="navigation">
+        <div class="dropdown" class="bx bx-menu">
+          <button class="dropbtn" class="bx bx-menu">
+            <a href="#">Streaming Now</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" class="bx bx-menu">
+            <a href="opp.html">Oppenheimer</a>
+            <a href="fight club.html">Fight Club</a>
+            <a href="amircan.html">American Psycho</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <a href="Coming Soon.html">Coming</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Deadpool & Wolverine.html">Deadpool & Wolverine</a>
+            <a href="InsideOut2.html">Insede Out 2</a>
+            <a href="Challengers.html">challengers</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <a href="search.html">Search</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <a href="contact-us.html">Contact Us</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="complaint.html">Complaint Form</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            <a href="Deals & Offers.html">Deals & Offers</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+        </div>
+        </div>
+      </nav>
+      <!-- <form class="search-box">
+        <input type="text" placeholder="Search...">
+        <a href="#">
+          <i class='bx bx-search'></i>
+        </a>
+      </form> -->
+      <ul class="sign-btn">
+        <li><a href="Signin22.html" class="btn">SIGN IN | SIGN UP</a></li>
+        <!--<li><a href="#" class="btn">Sign up</a></li>-->
+      </ul>
+    </header>
+  <section class="newsletter-section">
+    <h1 class="title">Get in Touch</h1>
+    <p class="text">We'd love to hear from you! Whether you have a question about our services, need assistance,
+      or
+      just want to say hello, feel free to reach out to us using the form below. Our team will get back to you
+      as soon as possible.</p>
+  </section>
+  <section class="form-section">
+    <form class="contact-form">
+      <div class="input-divider">
+        <label for="name">
+          Name
+          <em>&#x2a;</em>
+        </label>
+        <div class="form-input-wrapper">
+          <input class="form-input" type="text" id="name" name="name">
+          <span class="error" id="name-error"></span>
+        </div>
+      </div>
+
+      <div class="input-divider">
+        <label for="email">
+          Email
+          <em>&#x2a;</em>
+        </label>
+        <div class="form-input-wrapper">
+          <input class="form-input" type="email" id="email" name="email">
+          <span class="error" id="email-error"></span>
+        </div>
+      </div>
+
+
+      <div class="input-divider">
+        <label for="phone">
+          Phone Number
+        </label>
+        <input class="form-input" type="tel" id="phone" name="phone">
+      </div>
+
+
+      <div class="input-divider">
+        <label for="subject">
+          Enquiry Subject
+        </label>
+        <select name="subject" id="subject">
+          <option value="">Select a Subject</option>
+          <option value="booking">Booking Retrieval</option>
+          <option value="careers">Careers</option>
+          <option value="events">Event or Corporate Booking</option>
+          <option value="cinemas">Feedback - Cinemas</option>
+          <option value="online">Feedback - Online</option>
+          <option value="general">General Enquiry</option>
+          <option value="media">Media Enquiry</option>
+          <option value="movie">Movie Enquiry</option>
+          <option value="refund">Refund Request</option>
+          <option value="session">Session Change Request</option>
+        </select>
+      </div>
+
+
+      <div class="input-divider">
+        <label for="cinema">
+          Select Cinema
+          <em>&#x2a;</em>
+        </label>
+        <div class="form-input-wrapper">
+          <select name="cinema" id="cinema">
+            <option value="">Select a Cinema</option>
+            <option value="cinema-1">Cinema 1</option>
+            <option value="cinema-2">Cinema 2</option>
+            <option value="cinema-3">Cinema 3</option>
+          </select>
+          <span class="error" id="cinema-error"></span>
+        </div>
+      </div>
+
+      <div class="input-divider">
+        <label for="notes">
+          YOUR MESSAGE
+          <em>&#x2a;</em>
+        </label>
+        <div class="form-input-wrapper">
+          <textarea rows="4" id="notes" name="notes"></textarea>
+          <span class="error" id="notes-error"></span>
+        </div>
+      </div>
+
+      <button class="submit-button" type="submit">Submit form</button>
+    </form>
+  </section>
+  <section class="contact-us-section">
+    <h1 class="title">Contact Us On Social</h1>
+    <p>We're here to assist you. Feel free to reach out to us at 12345. </p>
+    <div class="social-icons-container">
+      <a href="#" class="icon facebook">
+        <span><i class="fab fa-facebook-f"></i></span>
+      </a>
+      <a href="#" class="icon twitter">
+        <span><i class="fab fa-twitter"></i></span>
+      </a>
+      <a href="#" class="icon instagram">
+        <span><i class="fab fa-instagram"></i></span>
+      </a>
+      <a href="#" class="icon youtube">
+        <span><i class="fab fa-youtube"></i></span>
+      </a>
+    </div>
+  </section>
+  <br>
+  <hr>
+  <br>
+  <section class="footer">
+    <div>
+      <nav role="navfoot" class="foot">
+        <h3>About</h3><br>
+        <ul style="display: block;">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">service</a></li>
+          <li><a href="#">Anti-Fraud Disclaimer</a></li>
+        </ul>
+    </div>
+    <a href="" class="logo">
+      <i class='bx bx-movie bx-tada' style='color:rgba(0,0,0,0)'></i>StarMaze</a>
+    <div class="social">
+      <div class="kzzz">
+        <a href=""><i class='bx bxl-facebook'></i></a>
+        <a href=""><i class='bx bxl-twitter'></i></a>
+        <a href=""><i class='bx bxl-instagram'></i></a>
+        <h4 style="margin-top: 15px;">Addres:<br>41 abdelrhman nasr elzyton elgharbia </h4>
+      </div>
+    </div>
+  </section>
+  <div class="copy">copyright ©2024</div>
+  <script src="script.js"></script>
+
+</body>
+
+
+</html>
